@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption</title>
+    <link href="https://fonts.cdnfonts.com/css/bytebounce" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Sign up</h1>
+        <label for="name"><br>Name:</br></label>
+        <input type="text" id="name" placeholder="Your name" required>
+        <label for="surname"><br>Surname:</br></label>
+        <input type="text" id="surname" placeholder="Your surname" required>
+        <label for="password"><br>Password:</br></label>
+        <div class="passField">
+            <input type="password" id="pass" placeholder="password" required>
+            <input type="checkbox" class="checkbox" onclick="showPass()">
+        </div>
+        <label for="password"><br>Repeat password:</br></label>
+        <div class="passField">
+            <input type="password" id="pass2" placeholder="repeat password" required>
+            <input type="checkbox" class="checkbox" onclick="showPass2()">
+        </div>
+        <p id="msg"></p>
+        <button type="submit" onclick="signUp()">Sign up</button>
+    </div>
+    <script src="function.js"></script>
+</body>
+
+</html>

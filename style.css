@@ -1,0 +1,95 @@
+body {
+    background: #121413;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcomeUser{
+    font-family: 'ByteBounce', sans-serif;
+    background-color: rgba(0, 167, 0, 0.541);
+    color: white;
+    border:none;
+    border-radius: 10px;
+    font-size: 40px;
+    width: 100%;
+    height: 20vh;
+}
+.form{
+    font-family: 'ByteBounce', sans-serif;
+    background: linear-gradient(to bottom, #2b0000, #000000, #00004b);
+    border-radius: 15px;
+    padding: 30px 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 220px;
+    text-align: center;
+    border: 3px solid transparent;
+    background-clip: padding-box, border-box;
+    border-image: linear-gradient(to bottom, #ff7e7e, #8b8bff) 1;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.form label {
+    color: #ccc;
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+.form input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+.form button {
+    margin-top: 20px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 5px #fff;
+}
+.form h1{
+    color: green;
+    font-size: 38px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+.form button:hover {
+    background-color: #111;
+    box-shadow: 0 0 10px #00ff6a;
+}
+
+.passField{
+    position: relative;
+    width:100%;
+}
+.passField .checkbox {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0;
+    display: inline-block;
+    width: auto;
+}
+
+#msg{
+    color: red;
+    font-size: 20px;
+}
